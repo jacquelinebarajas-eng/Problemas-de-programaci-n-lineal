@@ -5,10 +5,10 @@
 #
 # NOTA: las variables deben cumplir que x_i >= 0
 # -------------------------------
-var x1 >= 0;
-var x2 >= 0;
-var x3 >= 0;
-var x4 >= 0;
+var x_1 >= 0;
+var x_2 >= 0;
+var x_3 >= 0;
+var x_4 >= 0;
 
 # --------------------------------
 # Función objetivo : 
@@ -16,16 +16,16 @@ var x4 >= 0;
 # NOTA : 
 #       ganancia = (precio de venta por unidad $) - (costo de producción)
 # ---------------------------------
-maximize z: 30*x1 + 30*x2 + 10*x3 + 15*x4;
+maximize z: 30*x_1 + 30*x_2 + 10*x_3 + 15*x_4;
 
 # --------------------------------
-# Restricciones de capacidad diaria de producción de la máquina 1
+# c1: Restricción de capacidad diaria de producción de la máquina 1
 # ---------------------------------
-subject to c1: 2*x1 + 3*x2 + 4*x3 + 2*x4 <= 500;
+subject to c1: 2*x_1 + 3*x_2 + 4*x_3 + 2*x_4 <= 500;
 
 # --------------------------------
-# Restricciones de capacidad diaria de producciónd de la máquina 2
+# c2: Restricción de capacidad diaria de producción de la máquina 2
 # ---------------------------------
-subject to c2: 3*x1 + 2*x2 + x3 + 2*x4 <= 380;
+subject to c2: 3*x_1 + 2*x_2 + x_3 + 2*x_4 <= 380;
 
 end;
