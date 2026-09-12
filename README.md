@@ -11,4 +11,4 @@ Un fabricante de una empresa metalúrgica de Frankfurt produce cuatro tipos de p
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **1** | 10 | 2 | 3 | 4 | 2 | 500 |
 | **2** | 5 | 3 | 2 | 1 | 2 | 380 |
-| **Precio de venta por unidad ($)** | 65 | 70 | 55 | 45 | — |
+| **Precio de venta por unidad ($)** | — | 65 | 70 | 55 | 45 | — |
