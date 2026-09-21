@@ -3,7 +3,7 @@
 # alambre
 # Variables de decisión: 
 #      x _i = kilogramos de alambre de i a producir por día, 
-# donde i={cobre, aluminio}.
+# donde i={aluminio, cobre}.
 # NOTA: las variables deben cumplir que x_i >= 0.
 # -------------------------------
 var x_1 >= 0;
