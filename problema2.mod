@@ -50,7 +50,7 @@ subject to c3: S2 + 1.05*A2 + 1.13*B1 = A3 + B3 + C3 + S3 + 20000;   # Año 3
 subject to c4: S3 + 1.05*A3 + 1.13*B2 + 1.28*C1 = A4 + B4 + S4 + 22000;   # Año 4
 subject to c5: S4 + 1.05*A4 + 1.13*B3 + 1.28*C2 + 1.40*D1 = A5 + S5 + 24000;    # Año 5
 subject to c6: S5 + 1.05*A5 + 1.13*B4 + 1.28*C3 + 1.40*D2 = S6 + 26000;   # Año 6
-# Año 2 
+
 # --------------------------------
 # c2: Restricciones de límite de riesgo por año 
 # --------------------------------- 
