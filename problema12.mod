@@ -1,5 +1,5 @@
 # -------------------------------
-# Problema de optimización: minimizar el transporte
+# Problema de optimización: maximizar la producción metalúrgica
 # Variables de decisión:
 #      x_1i = unidades de $i$ fundidas en PRODA  i={P_1, P_2}, 
 #      x_2i = unidades de $j$ con fundición subcontratada  i={P_1, P_2},  
@@ -15,9 +15,9 @@ var x_3 >= 0;
 
 # --------------------------------
 # Función objetivo:
-#    minimizar el transporte
+#    maximizar las ganancias semanales de la empresa
 # ---------------------------------
-maximize z: 0.70*x_11+0.50*x_12+1.00*x_21+0.90*x_22+1.10*x_3;
+maximize z: 0.70*x_11+0.50*x_21+1.00*x_12+0.90*x_22+1.10*x_3;
 
 # --------------------------------
 # c1i: Restricciones de la función
