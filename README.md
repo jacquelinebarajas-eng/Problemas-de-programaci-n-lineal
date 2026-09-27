@@ -1,7 +1,5 @@
 # Problemas de Programación Lineal
 
-Colección de problemas de aplicación de programación lineal en distintos contextos productivos y financieros.
-
 ## Índice
 
 1. [Planeación de la producción en una empresa textil](#1-planeación-de-la-producción-en-una-empresa-textil)
